@@ -106,7 +106,7 @@ def main():
 
     # 提交打卡与结果判定
     flag = 0
-    for i in range(1, 5):
+    while flag != 1:
         response = requests.post(check_url, json=check_json)
         if response.status_code == 200:
             flag = 1
