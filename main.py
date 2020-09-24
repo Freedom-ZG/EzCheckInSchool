@@ -112,7 +112,7 @@ def main():
             flag = 1
             break
         else:
-            time.sleep(60)
+            time.sleep(240)
     print(response.text)
     time_msg = str(time_h) + '时' + str(time_m) + '分' + str(time_s) + '秒'
     if flag == 1:
